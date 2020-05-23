@@ -1,18 +1,18 @@
-"  ____      _                         _
-" / ___|_  _| |__   __ _ _ __ ___  ___| |_ ___ _ __
-"| |  _\ \/ / '_ \ / _` | '_ ` _ \/ __| __/ _ \ '__|
-"| |_| |>  <| | | | (_| | | | | | \__ \ ||  __/ |
-" \____/_/\_\_| |_|\__,_|_| |_| |_|___/\__\___|_|
-
+"  ____          _                                 _
+" / ___| __  __ | |__     __ _   _ __ ___    ___  | |_    ___   _ __
+"| |  _  \ \/ / | '_ \   / _` | | '_ ` _ \  / __| | __|  / _ \ | '__|
+"| |_| |  >  <  | | | | | (_| | | | | | | | \__ \ | |_  |  __/ | |
+" \____| /_/\_\ |_| |_|  \__,_| |_| |_| |_| |___/  \__|  \___| |_|
 
 " Install Plugins
 call plug#begin()
+        Plug 'voldikss/vim-floaterm'
         Plug 'liuchengxu/vim-which-key'
         Plug 'mhinz/vim-startify'
         Plug 'calviken/vim-gdscript3'
         Plug 'morhetz/gruvbox'
         Plug 'tpope/vim-fugitive'
-        " Plug 'scrooloose/nerdtree'
+        Plug 'scrooloose/nerdtree'
         Plug 'vim-airline/vim-airline'
         " Plug 'dracula/vim', { 'as': 'dracula' }
         Plug 'preservim/nerdcommenter'
@@ -33,4 +33,6 @@ source $HOME/.config/nvim/configs/coc.vim
 source $HOME/.config/nvim/configs/fzf.vim
 source $HOME/.config/nvim/configs/ctrlp.vim
 source $HOME/.config/nvim/configs/startify.vim
+source $HOME/.config/nvim/configs/floaterm.vim
+source $HOME/.config/nvim/configs/nerdtree.vim
 

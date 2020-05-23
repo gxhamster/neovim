@@ -27,7 +27,7 @@ let g:coc_explorer_global_presets = {
 \   },
 \   'floatingRightside': {
 \      'position': 'floating',
-\      'floating-position': 'left-center',
+\      'floating-position': 'right-center',
 \      'floating-width': 50,
 \   },
 \   'simplify': {
@@ -37,6 +37,6 @@ let g:coc_explorer_global_presets = {
 
 " Use preset argument to open it
 nmap <space>ed :CocCommand explorer --preset .vim<CR>
-nmap <space>ef :CocCommand explorer --preset simplify<CR>
+nmap <space>ef :CocCommand explorer --preset floatingLeftside<CR>
 
 

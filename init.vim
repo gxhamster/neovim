@@ -13,8 +13,8 @@ call plug#begin()
         Plug 'liuchengxu/vim-which-key'
         Plug 'mhinz/vim-startify'
         Plug 'calviken/vim-gdscript3'
-        Plug 'morhetz/gruvbox'
         Plug 'tpope/vim-fugitive'
+        Plug 'gruvbox-community/gruvbox'
         Plug 'scrooloose/nerdtree'
         Plug 'vim-airline/vim-airline'
         " Plug 'dracula/vim', { 'as': 'dracula' }
